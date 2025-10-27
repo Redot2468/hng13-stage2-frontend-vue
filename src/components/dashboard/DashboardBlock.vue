@@ -6,7 +6,8 @@ import { useTicketsStore } from '@/stores/ticket'
 import { getUser } from '@/lib/getUsers'
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import type { TicketStatus } from '@/lib/tickets-types'
+
+type TicketStatus = 'opened' | 'in_progress' | 'closed'
 
 const user = getUser()
 const ticketsStore = useTicketsStore()
@@ -22,7 +23,7 @@ const numberofTicketsByStatus = (status: TicketStatus) => {
   )
 }
 
-const openTickets = numberofTicketsByStatus('open')
+const openTickets = numberofTicketsByStatus('opened')
 const inProgressTickets = numberofTicketsByStatus('in_progress')
 const closedTickets = numberofTicketsByStatus('closed')
 

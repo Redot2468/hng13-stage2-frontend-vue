@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router'
 import { Pencil, Trash } from 'lucide-vue-next'
 import { toast } from 'vue-sonner'
 import { useTicketsStore } from '@/stores/ticket'
-import type { TicketType } from '@/lib/tickets-types'
+import type { TicketType } from '../../lib/tickets-types.ts'
 import { Button } from '../ui/button'
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 

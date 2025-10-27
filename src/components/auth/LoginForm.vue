@@ -54,7 +54,7 @@ const onSubmit = handleSubmit(async (formData) => {
   const doesPasswordMatch = await bcrypt.compare(formData.password, existingUser.password)
 
   if (!doesPasswordMatch) {
-    toast(toast.error('invalid email or password'))
+    toast.error('invalid email or password')
     return
   }
 

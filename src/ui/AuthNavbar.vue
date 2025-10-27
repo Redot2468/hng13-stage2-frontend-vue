@@ -1,9 +1,4 @@
-<script setup lang="ts">
-// You can define props to accept data
-defineProps<{
-  text: string
-}>()
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <nav

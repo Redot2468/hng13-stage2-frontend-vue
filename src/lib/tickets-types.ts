@@ -1,6 +1,6 @@
-import type { TicketSchemaType } from "../lib/schema/ticket-schema";
+import type { TicketSchemaType } from '../lib/ticket-schema.ts'
 
 export interface TicketType extends TicketSchemaType {
-  id: string;
-  userId?: string;
+  id: string
+  userId?: string
 }
