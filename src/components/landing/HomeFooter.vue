@@ -16,7 +16,7 @@ import { Card, CardHeader } from '@/components/ui/card'
             Ready to manage your tickets?
           </h2>
           <p class="text-neutral-600 text-lg mt-2 max-w-xl">
-            Join thousands of teams already using TicketFlow to streamline their support operations.
+            Join thousands of teams already using TicketMS to streamline their support operations.
           </p>
 
           <RouterLink to="/auth/signup">

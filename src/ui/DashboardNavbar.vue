@@ -53,8 +53,8 @@ const onLogout = () => {
       class="border-b border-neutral-200 h-[70px] font-bold flex items-center px-6 bg-white/80 backdrop-blur-sm justify-between"
     >
       <div class="flex items-center gap-4">
-        <img src="/logo-1.png" alt="TicketFlow Logo" class="size-[30px]" />
-        <h1 class="text-xl text-neutral-800">TicketFlow</h1>
+        <img src="/logo-1.png" alt="TicketMS Logo" class="size-[30px]" />
+        <h1 class="text-xl text-neutral-800">TicketMS</h1>
       </div>
 
       <ul class="items-center gap-4 sm:gap-6 hidden sm:flex">
